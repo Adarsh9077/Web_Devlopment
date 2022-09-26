@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web2a</title>
+    <style>
+        marquee {
+            color: crimson;
+            font-size: 90px;
+            font-family: cursive;
+            font-style: italic;
+        }
+
+        label {
+            color: rgb(115, 108, 237);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        img {
+            width: 400px;
+            height: 200px;
+            margin-left: 5%;
+            /* margin: 15%; */
+            border-color: crimson;
+            border-style: groove;
+            border-width: 10px;
+            border-radius: 19px;
+            padding: 5px;
+        }
+
+        body {
+            background-image: linear-gradient(rgb(255, 124, 69), rgb(216, 207, 175));
+        }
+        /*.ol is class . --> means class ol is class name  */
+
+        /*!important mean that first pirorit of in class or id*/
+
+        .ol {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: darkred /* !important */;
+            font-size: 29px;
+        }
+
+        .p {
+            color: rgb(95, 0, 186);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 19px;
+        }
+        #k{
+            color:rgb(247, 44, 37);
+        }
+
+        #pad{
+            margin: 20%;
+            padding: 10%;
+            background-color:rgb(68, 255, 210) ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <marquee>Adarsh Bhardwaj</marquee>
+    <hr>
+    <a href="/Web1a.html" target="_blank"><button><strong><em>Web1a</em></strong></button></a>
+    <br>
+    <pre class="p">Pre Tag is altrenative of p tag --> 
+This Sub tag --><sub>Lorem ipsum dolor</sub> sit amet consectetur adipisicing elit.
+This is Sup tag<sup> Eius voluptate enim eos atque recusandae nihil</sup>, eum quia doloribus 
+omnis aperiam nesciunt, molestiae excepturi veritatis, corporis odio 
+debitis quos aspernatur. <mark>Quasi ab</mark> <-- Mark tag, laudantium molestias 
+obcaecati optio dicta eos dolores eligendi consequuntur.
+<mark>Check the line 61 in vs-code </mark>
+<template>Hello world, Main nai bata raha , kya kar lega ,hii</template></pre>
+    <hr>
+    <form action="mailto:bhardwajadarsh873@gmail.com" method="post">
+        Name :
+        <input type="text" name="Name" placeholder="Enter your name"><br>
+        Email Id :
+        <input type="email" name="Email" placeholder="Enter your email"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male" id="gender-m">
+        <label for="gender-m">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f">Female</label>
+        <br>
+        <input type="radio" name="gender" value="Other" id="gender-o">
+        <label for="gender-o">Other</label>
+        <br>
+        Skills :-
+        <br>
+        <input type="checkbox" name="skills" value="HTML" id="skill1">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skills" value="CSS" id="skill2">
+        <label for="skill2">CSS</label>
+        <input type="checkbox" name="skills" value="Java-script" id="skill3">
+        <label for="skill3">Java-script</label>
+        <br>
+        <p class="p">List of Student :
+            <select name="List of Student" id="">
+                <option>--Select a Student--</option>
+                <option>Adarsh Bhardwaj</option>
+                <option>Avdesh Bhardwaj</option>
+                <option>Nirdosh Sharma</option>
+                <option selected>Default Selected</option>
+                <option>Divesh Sharma</option>
+                <option>Ashish Kumar</option>
+            </select>
+        </p>
+        <input type="submit" name="submit" value="Submit now">
+        <input type="reset" name="reset" value="Reset">
+    </form>
+
+    <hr>
+    <strong><em>
+            <img src="https://static.toiimg.com/photo/msid-78080325/78080325.jpg?245600"
+                alt="Thor, The god of thunder"></em></strong>
+    <!-- <hr> -->
+    <!--<br>--><strong><em>
+            <img src="https://wallpapercave.com/wp/wp11121668.jpg" alt="Dr.Strange-Zombie"></em></strong>
+    <hr>
+    <div id="pad"> 
+        <p>This is p tag in div tag using id (CSS)</p>
+    </div>
+    <hr>
+    <pre class="ol">These tags are used in this web page,tags are :-</pre>
+    <ol type="1" class="ol">
+        <li id="k">Pre tag</li>
+        <li>Sub tag</li>
+        <li id="k">Sup tag</li>
+        <li>Mark tag</li>
+        <li id="k">Template tag</li>
+        <li>Input tag</li>
+        <li id="k">Form tag</li>
+        <li>Select tag</li>
+        <li id="k">Option tag</li>
+        <li>Marquee tag</li>
+        <li id="k">Style tag</li>
+        <li>Div tag</li>
+    </ol>
+</body>
+
+</html>

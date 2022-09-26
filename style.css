@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(250, 212, 216);
+}
+.lorem{
+    width: 79em;
+    background-color: rgb(247, 44, 37);
+    align-items: center;
+}
+.lorem:hover{
+    width: 79em;
+    background-color: rgb(255, 188, 66);
+}
+.lorem > pre{
+    cursor: pointer;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(240, 200, 8);
+}
+.lorem>pre:hover{
+    color: rgb(137, 2, 255);
+    font-size: 2em;
+
+}
+.parent>div{
+    background-color: rgb(247, 23, 53);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ff:hover>a>strong>em{
+    color: rgb(230, 104, 25);
+    font-size: 1.8em;
+}
+#ff{
+    background-color: rgb(219, 147, 176);
+}
+button a{
+    text-decoration:none;
+}
